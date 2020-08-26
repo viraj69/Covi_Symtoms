@@ -12,25 +12,34 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to COVID-19 Health centre" />
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:textColor="#556B2F"
+        android:textAllCaps="true"
+        android:text="Welcome to COVID-19 Health centre"
+        android:layout_marginTop="30dp"
+        />
 
 
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Check your health status" />
+        android:layout_height="60dp"
+        android:text="Check your health status"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Safety guideline and measurements" />
+        android:text="Safety guideline and measurements"
+        android:layout_marginTop="10dp"
+        android:layout_height="60dp"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Logout" />
+        android:layout_height="60dp"
+        android:text="Logout"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>
